@@ -9,13 +9,4 @@ jobs:
     steps:
       - name: Call Playwright Run API
         run: |
-          curl --location 'https://d3f4c03b6b08.ngrok-free.app/api/v1/playwright/run-tests-ciCD?id=257&email=superadmin%40yopmail.com' \
-          --header 'Accept: application/json, text/plain, */*' \
-          --header 'Accept-Language: en-US,en;q=0.9' \
-          --header 'Connection: keep-alive' \
-          --header 'Content-Type: application/json' \
-          --header 'Origin: http://192.168.2.131:5173' \
-          --header 'Referer: http://192.168.2.131:5173/' \
-          --header 'User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/140.0.0.0 Safari/537.36' \
-          --header 'ngrok-skip-browser-warning: 69420' \
-          --data ''
+          curl --location 'https://d3f4c03b6b08.ngrok-free.app/api/v1/playwright/run-tests-ciCD?id=257&email=superadmin%40yopmail.com'
